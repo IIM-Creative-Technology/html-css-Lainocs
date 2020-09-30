@@ -22,6 +22,12 @@
 .bg3 {
     background-image: url("../IMG/compet.jpg");
     background-size: cover;
+    height: 1000px;
+}
+
+.bg4 {
+    background-image: url("../IMG/desk.jpg");
+    background-size: cover;
 }
 
 /*-------------- NAV -------------------*/
@@ -153,4 +159,26 @@ nav a:hover{
     border: 1px solid black;
     border-bottom: none;
     padding: 20px;
+}
+
+.button {
+    display: flex;
+    margin: 0 auto;
+}
+.button:hover {
+    background-color: blue;
+}
+
+/*-------------- Classement -------------- */
+
+.h2_classement {
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.back4 {
+    margin: 0 auto;
+    width: 70%;
+    background-color: blue;
 }
