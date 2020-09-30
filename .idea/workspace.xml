@@ -20,17 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c9c73c8-be77-40ec-9a1e-76fc655b3558" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/html-css-Lainocs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/lists.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classement.html" beforeDir="false" afterPath="$PROJECT_DIR$/classement.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rammus.html" beforeDir="false" afterPath="$PROJECT_DIR$/rammus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/riven.html" beforeDir="false" afterPath="$PROJECT_DIR$/riven.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/senna.html" beforeDir="false" afterPath="$PROJECT_DIR$/senna.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +50,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601377015387</updated>
       <workItem from="1601377017296" duration="643000" />
-      <workItem from="1601467789590" duration="1210000" />
+      <workItem from="1601467789590" duration="4220000" />
     </task>
     <servers />
   </component>
@@ -88,5 +88,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="385" y="164" width="670" height="676" key="search.everywhere.popup" timestamp="1601470825748">
+      <screen x="0" y="23" width="1440" height="817" />
+    </state>
+    <state x="385" y="164" width="670" height="676" key="search.everywhere.popup/0.23.1440.817/-261.-1057.1920.1057@0.23.1440.817" timestamp="1601470825748" />
   </component>
 </project>
