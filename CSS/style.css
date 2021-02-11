@@ -1,0 +1,209 @@
+
+/*----------- ALL -----------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------- BACKGROUNDS -----------------*/
+
+.bg1 {
+    background-image: url("../IMG/des.jpg");
+    background-size: cover;
+}
+
+.bg2 {
+    background-image: url("../IMG/desk.jpg");
+    background-size: cover;
+}
+
+.bg3 {
+    background-image: url("../IMG/compet.jpg");
+    background-size: cover;
+    height: 1000px;
+}
+
+.bg4 {
+    background-image: url("../IMG/desk.jpg");
+    background-size: cover;
+}
+
+/*-------------- NAV -------------------*/
+
+nav {
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    padding: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav a:hover{
+    color: black;
+}
+
+/*------------- SECTION 1 index.html-------------*/
+
+#sec1 {
+    padding: 0 20px;
+}
+
+.back1 {
+    width: 70%;
+    background-color: rgb(255,0,0,0.7);
+    margin: 0 auto;
+    text-align: center;
+}
+
+#sec1 img {
+    width: 20%;
+}
+
+#sec1 div, #sec1 div a {
+    padding: 20px;
+    color:white;
+    line-height: 100px;
+}
+
+#sec1 div a:hover {
+    color: black;
+}
+
+#sec1 h1 {
+    font-size: 90px;
+}
+
+#sec1 h2 {
+    font-size: 30px;
+}
+
+#sec1 p {
+    font-size: 20px;
+}
+
+
+/*---------- SECTION 2 index.html ------------*/
+
+#sec2 {
+    padding: 0 20px;
+}
+
+.back2 {
+    width: 70%;
+    background-color: rgb(0,0,255,0.7);
+    margin: 0 auto;
+    text-align: center;
+}
+
+#sec2 div, #sec2 div a {
+    color:white;
+    line-height: 100px;
+    text-decoration: none;
+}
+
+#sec2 table {
+    border-top: 2px solid #ffffff;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #sec2 td {
+    text-align: left;
+    padding: 30px;
+    color: #ffffff;
+  }
+
+  #sec2 td:hover {
+      background-color: pink;
+  }
+  
+  #sec2 tr:nth-child(even) {
+    background-color: rgb(255,0,0,0.7);
+  }
+
+
+  /* Footer index.html */
+
+  #sec3 {
+      color: #ffffff;
+    padding: 20px;
+}
+
+  .back3 {
+    background-color: rgb(0,100,0,0.7);
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Page de sondage */
+
+.sondage{
+    margin: 0 auto;
+    width: 70%;
+    background-color: rgb(0,100,0,0.7);
+    color: #ffffff;
+}
+
+.sondage h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.sondage div{
+    border: 1px solid black;
+    border-bottom: none;
+    padding: 20px;
+}
+
+.button {
+    padding: 20px;
+    background-color: green;
+    display: flex;
+    margin: 0 auto;
+}
+.button:hover {
+    background-color: darkgreen;
+}
+
+/*-------------- Classement -------------- */
+
+.back4 {
+    margin: 0 auto;
+    width: 70%;
+    background-color: rgb(0,0,255,0.7);
+}
+
+.back4 p {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+/* ---------- RESPONSIVE ----------- */
+
+@media screen and (max-width: 1100px) {
+    header nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .back1, .back2, .back3, .back4 {
+        width: 100%;
+    }
+
+    #sec1, #sec2, #sec3 {
+        padding: 0;
+    }
+
+    .sondage {
+        width: 100%;
+    }
+}
